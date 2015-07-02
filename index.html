@@ -57,7 +57,12 @@
 
 
 <h2><a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Generating CTDs</h2>
-<p>If you are not in the position to refactor a command line tool to make it <i>CTD enabled</i>, you can use <a href="https://github.com/WorkflowConversion/CTDopts">CTDopts</a>, which offers a Python script to wrap command line tools to make them <i>CTD enabled</i>. All you need to do is code a few lines of Python code, in which you will <i>describe</i> the parameters of your tool. Once you're done <i>describing</i> the parameters, inputs and outputs, you now have a <i>CTD enabled</i> tool!</p>
+<p>If you want to avoid a refactoring of your tools in order to make them <i>CTD enabled</i>, you have a couple of options to generate CTDs that represent your tools:
+	<ul>
+		<li>Generate a CTD manually - Since CTDs are XML files, you can use your favourite text editor to write your own CTDs. Have a look at the schemas and samples in <a href="https://github.com/WorkflowConversion/CTDSchema">the CTD GitHub page</a>.</li>
+		<li>Use <a href="https://github.com/WorkflowConversion/CTDopts">CTDopts</a> - <a href="https://github.com/WorkflowConversion/CTDopts">CTDopts</a> offers a Python script to wrap command line tools to make them <i>CTD enabled</i>. All you need to do is code a few lines of Python code, in which you will <i>describe</i> the parameters of your tool. Once you're done <i>describing</i> the parameters, inputs and outputs, you now have a <i>CTD enabled</i> tool!</li>
+	</ul>
+</p>
 
 <h2><a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Taking CTDs a step further</h2>
 
